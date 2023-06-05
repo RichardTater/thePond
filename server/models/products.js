@@ -1,9 +1,27 @@
-const {DataType} = require('sequelize')
+const {DataTypes} = require('sequelize')
 const {sequelize} = require("../util/database")
 
 module.exports = {
-    Products: sequelize.define('Products')
+    Product: sequelize.define('product', {
+        id:{
+            type:DataTypes.INTEGER,
+            autoIncrement:true,
+            allowNull:false,
+            primaryKey:true
+        },
+        name:{
+            type:DataTypes.STRING,
+            allowNull:false,
+        },
+        price:{
+            type:DataTypes.FLOAT,
+            allowNull:true
+        },
+        description:{
+            type:DataTypes.STRING({length:1000}),
+            allowNull:true
+        }
+    })
 }
 
-//Will need help
-//TODO server setup at 28:55
+//TODO need help with server
