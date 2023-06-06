@@ -14,5 +14,5 @@ app.use(cors())
 sequelize
     .sync()
         // .sync({force:true}).then(seed)
-    .then(() => app.listen(SERVER_PORT, console.log(`Take us to warp ${SERVER_PORT}!`)))
+    .then(() => app.listen(SERVER_PORT, console.log(`We got a ${SERVER_PORT}! I repeat, WE HAVE A ${SERVER_PORT}!`)))
     .catch(theseHands => console.log(theseHands))
