@@ -9,9 +9,13 @@ module.exports = {
             allowNull:false,
             primaryKey:true
         },
+        imgURL:{
+            type:DataTypes.TEXT,
+            allowNull:false
+        },
         name:{
             type:DataTypes.STRING,
-            allowNull:false,
+            allowNull:false
         },
         price:{
             type:DataTypes.FLOAT,
@@ -23,5 +27,3 @@ module.exports = {
         }
     })
 }
-
-//TODO need help with server
