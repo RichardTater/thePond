@@ -1,7 +1,5 @@
 const {DataTypes} = require('sequelize')
-// const {sequelize} = require("../util/database")
-import { sequelize } from "../util/database"
-import { Sequelize } from 'sequelize'
+const {sequelize} = require("../util/database")
 
 module.exports = {
     Product: sequelize.define('product', {

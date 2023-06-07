@@ -1,6 +1,6 @@
 require('dotenv').config()
 const {CONNECTION_STRING} = process.env
-import { Sequelize } from 'sequelize'
+const Sequelize = require('sequelize')
 
 
 const sequelize = new Sequelize(CONNECTION_STRING, {
