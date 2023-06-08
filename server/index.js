@@ -27,7 +27,9 @@ app.use(session({
 
 
 app.get("/api/ducks", duckyController.getDucks)
-app.delete("/api/ducks/:duckId", duckyController.deleteDuckFromCart)
+app.post("/api/cart", duckyController.addDuckToCart)
+app.delete("/api/cart/:duckId", duckyController.deleteDuckFromCart)
+app.get("/api/cart", duckyController.getDucksInCart)
 
 sequelize
     .sync()

@@ -1,7 +1,14 @@
 import React from "react";
+import axios from "axios";
 import { Card } from "flowbite-react";
 
 const DuckyCard = (props) => {
+  let duckObj = {...props}
+  let addToCart = (req, res) => {
+    axios.post("/api/ducks", duckObj)
+      .then ((res) => console.log(res))
+      .catch((theseHands) => console.log(theseHands))
+  }
   return (
     <Card
       imgAlt={props.name}
@@ -20,7 +27,7 @@ const DuckyCard = (props) => {
           className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
           href="#"
         >
-          <p>Add to cart</p>
+          <button onClick={addToCart}>Add to cart</button>
         </a>
       </div>
     </Card>
