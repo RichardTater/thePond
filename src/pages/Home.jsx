@@ -1,17 +1,41 @@
-import React from 'react'
-import DuckyCard from '../elements/DuckyCard'
+import React from "react";
+import DuckyCard from "../elements/DuckyCard";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 
 const Home = () => {
-  return (
-    <>
-      <DuckyCard 
-        name="Classic Ducky"
-        imgURL="https://cdn.shopify.com/s/files/1/0604/4801/products/Classic_1_clipped_rev_1_540x.jpeg?v=1505807388"
-        price="5.50"
-      />
-    </>
-  )
-}
+  const [listOfDucks, setListOfDucks] = useState([]);
+  const getDucks = () => {
+    axios
+      .get("/api/ducks")
+      .then((res) => {
+        if (res.data) {
+          setListOfDucks(res.data);
+        }
+      })
+      .catch(() => {
+        alert({
+          type: "failure",
+          title: "Something went wrong.",
+          paragraph: "Ducks could not load",
+        });
+      });
+  };
 
-export default Home
+  useEffect(() => {
+    getDucks();
+  }, []);
+
+  // console.log(listOfDucks);
+
+  return (
+    <div className="grid grid-cols-4 justify-center align-center">
+      {listOfDucks.map((index) => {
+        return <DuckyCard key={index.id} index={index}/>;
+      })}
+    </div>
+  );
+};
+
+export default Home;
