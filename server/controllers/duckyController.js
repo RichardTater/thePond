@@ -18,9 +18,11 @@ module.exports = {
       const index = req.session.cart.findIndex(
         (item) => item.id === duckObj.id
       );
-      if (index) {
+      if (index >= 0) {
+        console.log(req.session.cart, index, req.session.cart[index])
         req.session.cart[index].quantity += 1;
       } else {
+        duckObj.quantity = 1
         req.session.cart.push(duckObj);
       }
     } else {

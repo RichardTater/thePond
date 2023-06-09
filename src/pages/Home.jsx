@@ -31,8 +31,8 @@ const Home = () => {
 
   return (
     <div className="grid grid-cols-4 justify-center align-center">
-      {listOfDucks.map((index) => {
-        return <DuckyCard key={index.id} index={index}/>;
+      {listOfDucks.map((duck) => {
+        return <DuckyCard key={duck.id} duck={duck}/>;
       })}
     </div>
   );
