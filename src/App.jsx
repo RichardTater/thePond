@@ -5,6 +5,7 @@ import Checkout from "./pages/Checkout";
 import AboutUs from "./pages/AboutUs";
 import Header from "./elements/Header";
 import Footer from "./elements/Footer";
+import Cart from "./elements/Cart";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="/aboutUs" element={<AboutUs />} />
-        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Footer />
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { Card } from "flowbite-react";
 
-const DuckyCard = ({ duck }) => {
+const CartCard = () => {
   let duckObj = { ...duck };
   let addToCart = (req, res) => {
     axios
@@ -10,7 +10,7 @@ const DuckyCard = ({ duck }) => {
       .then((res) => console.log(res))
       .catch((theseHands) => console.log(theseHands));
   };
-  // console.log(duck.id)
+
   return (
     <Card className="w-64" imgAlt={duck.name} imgSrc={duck.imgURL}>
       <a href="#">
@@ -26,12 +26,11 @@ const DuckyCard = ({ duck }) => {
           className="rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
           href="#"
         >
-          <button onClick={addToCart}>Add to cart</button>
-          
+          {/* <button onClick={addToCart}>Add to cart</button> */}
         </a>
       </div>
     </Card>
   );
 };
 
-export default DuckyCard;
+export default CartCard;
