@@ -23,8 +23,8 @@ const Footer = () => {
           </div>
           <div>
             <Foot.LinkGroup>
-              <Foot.Link href="#">About</Foot.Link>
-              <Foot.Link href="#">Privacy Policy</Foot.Link>
+              <Foot.Link href="http://localhost:3000/about">About</Foot.Link>
+              <Foot.Link href="">Privacy Policy</Foot.Link>
               <Foot.Link href="#">Licensing</Foot.Link>
               <Foot.Link href="#">Contact</Foot.Link>
             </Foot.LinkGroup>
