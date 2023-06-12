@@ -3,6 +3,7 @@ import DuckyOfDay from "../elements/DuckyOfDay";
 import DuckyCard from "../elements/DuckyCard";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import styles from "./Home.module.css"
 
 const Home = () => {
   const [listOfDucks, setListOfDucks] = useState([]);
@@ -30,7 +31,7 @@ const Home = () => {
   // console.log(listOfDucks);
 
   return (
-    <div>
+    <div id={styles.homepageContainer}>
       <DuckyOfDay />
       <div className="grid grid-cols-4 justify-center align-center">
         {listOfDucks.map((duck) => {
