@@ -32,7 +32,7 @@ app.delete("/api/cart/:duckId", duckyController.deleteDuckFromCart)
 app.get("/api/cart", duckyController.getDucksInCart)
 
 sequelize
-    // .sync()
-        .sync({force:true}).then(seed)
+    .sync()
+        // .sync({force:true}).then(seed)
     .then(() => app.listen(SERVER_PORT, console.log(`We got a ${SERVER_PORT}! I repeat, WE HAVE A ${SERVER_PORT}!`)))
     .catch(theseHands => console.log(theseHands))

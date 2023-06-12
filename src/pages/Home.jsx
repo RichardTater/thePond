@@ -1,8 +1,8 @@
 import React from "react";
+import DuckyOfDay from "../elements/DuckyOfDay";
 import DuckyCard from "../elements/DuckyCard";
 import { useState, useEffect } from "react";
 import axios from "axios";
-
 
 const Home = () => {
   const [listOfDucks, setListOfDucks] = useState([]);
@@ -30,10 +30,13 @@ const Home = () => {
   // console.log(listOfDucks);
 
   return (
-    <div className="grid grid-cols-4 justify-center align-center">
-      {listOfDucks.map((duck) => {
-        return <DuckyCard key={duck.id} duck={duck}/>;
-      })}
+    <div>
+      <DuckyOfDay />
+      <div className="grid grid-cols-4 justify-center align-center">
+        {listOfDucks.map((duck) => {
+          return <DuckyCard key={duck.id} duck={duck} />;
+        })}
+      </div>
     </div>
   );
 };
