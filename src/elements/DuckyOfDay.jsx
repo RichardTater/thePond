@@ -3,7 +3,7 @@ import { Carousel } from 'flowbite-react'
 
 const DuckyOfDay = () => {
   return (
-    <Carousel className='h-300px'>
+    <Carousel >
       <img
         alt="..."
         src="https://cdn.shopify.com/s/files/1/0604/4801/products/baseball_1_modified_540x.jpg?v=1505346044"

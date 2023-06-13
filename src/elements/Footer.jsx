@@ -15,10 +15,10 @@ const Footer = () => {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <div>
             <Foot.Brand
-              alt="Flowbite Logo"
-              href="https://flowbite.com"
-              name="Flowbite"
-              src="https://flowbite.com/docs/images/logo.svg"
+              alt="The Pond"
+              href="http://localhost:3000/"
+              name="THE POND"
+              src="https://w7.pngwing.com/pngs/88/543/png-transparent-rubber-duck-encapsulated-postscript-logo-duck-animals-pet-vertebrate.png"
             />
           </div>
           <div>
@@ -26,7 +26,7 @@ const Footer = () => {
               <Foot.Link href="http://localhost:3000/about">About</Foot.Link>
               <Foot.Link href="">Privacy Policy</Foot.Link>
               <Foot.Link href="#">Licensing</Foot.Link>
-              <Foot.Link href="#">Contact</Foot.Link>
+              <Foot.Link href="https://www.linkedin.com/in/lane-vance-profile/">Contact</Foot.Link>
             </Foot.LinkGroup>
           </div>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">

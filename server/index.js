@@ -30,6 +30,7 @@ app.get("/api/ducks", duckyController.getDucks)
 app.post("/api/cart", duckyController.addDuckToCart)
 app.delete("/api/cart/:duckId", duckyController.deleteDuckFromCart)
 app.get("/api/cart", duckyController.getDucksInCart)
+app.put("/api/cart", duckyController.editQuantity)
 
 sequelize
     .sync()

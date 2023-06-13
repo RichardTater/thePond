@@ -31,7 +31,7 @@ const Cart = () => {
   return (
     <div className="grid grid-cols-4 justify-center align-center">
       {duckyCart.map((duck) => {
-        return <DuckyCard key={duck.id} duck={duck}/>;
+        return <DuckyCard key={duck.id} duck={duck} cartOfDucks={cartOfDucks}/>;
       })}
     </div>
   )
