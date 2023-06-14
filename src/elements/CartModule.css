@@ -1,0 +1,12 @@
+#cartbackground {
+    background-color: aqua;
+    background-image: url("https://images.unsplash.com/photo-1509347201499-7020cd9a59de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvbmR8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=800&q=60");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-position: right top; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    min-height:85vh;
+  }

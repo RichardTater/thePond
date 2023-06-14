@@ -35,8 +35,14 @@ const Home = () => {
       <div id={styles.DODHolder}>
         <DuckyOfDay />
       </div>
-      <div></div>
-      <div id={styles.duckyContainer} className="grid grid-cols-5 justify-center align-center">
+      <h1 id={styles.h1Welcome}>
+        Welcome to the Ducky Pond
+      </h1>
+
+      <div
+        id={styles.duckyContainer}
+        className="grid grid-cols-5 justify-center align-center"
+      >
         {listOfDucks.map((duck) => {
           return <DuckyCard key={duck.id} duck={duck} />;
         })}

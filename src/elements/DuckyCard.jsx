@@ -26,7 +26,7 @@ const DuckyCard = ({ duck, cartOfDucks }) => {
   };
 
   return (
-    <Card className="w-64" imgAlt={duck.name} imgSrc={duck.imgURL} >
+    <Card style={{"marginRight":"10px", "marginBottom":"10px", "minHeight":"256px", "maxHeight":"400px"}} className="w-64" imgAlt={duck.name} imgSrc={duck.imgURL} >
       <a href="#">
         <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
           <p>{duck.name}</p>

@@ -100,20 +100,20 @@ let starterProducts = [
         
         Age 3 and above. Please use with supervision for children under the age of 3.`,
   },
-  {
-    id: 8,
-    name: "Skateboarder Ducky",
-    imgURL:
-      "https://cdn.shopify.com/s/files/1/0604/4801/products/Photo_Aug_16_1_17_29_PM_burned-min_540x.jpg?v=1505111809",
-    price: 5.50,
-    description: `Are you enjoying the freedom from cruising around town on your skateboards? Well so does the Rubber Skateboard Duck! This duck is a perfect gift for boys birthdays or celebrations! Order yours today!
+  // {
+  //   id: 8,
+  //   name: "Skateboarder Ducky",
+  //   imgURL:
+  //     "https://cdn.shopify.com/s/files/1/0604/4801/products/Photo_Aug_16_1_17_29_PM_burned-min_540x.jpg?v=1505111809",
+  //   price: 5.50,
+  //   description: `Are you enjoying the freedom from cruising around town on your skateboards? Well so does the Rubber Skateboard Duck! This duck is a perfect gift for boys birthdays or celebrations! Order yours today!
 
-        Measurements: 3 1/8" x 3 3/8" x 3 1/4"
+  //       Measurements: 3 1/8" x 3 3/8" x 3 1/4"
         
-        Our ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
+  //       Our ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
         
-        Age 3 and above. Please use with supervision for children under the age of 3.`,
-  },
+  //       Age 3 and above. Please use with supervision for children under the age of 3.`,
+  // },
   {
     id: 9,
     name: "Biker",
@@ -184,20 +184,20 @@ let starterProducts = [
         
         Age 3 and above. Please use with supervision for children under the age of 3.`,
   },
-  {
-    id: 14,
-    name: "Fireman Ducky",
-    imgURL:
-      "https://cdn.shopify.com/s/files/1/0604/4801/products/CIMG0253_1cc2de25-bd5e-4030-abf9-86a4d36b0e17_540x.JPG?v=1505112051",
-    price: 5.50,
-    description: `Are you a firefighter yourself? or you want to inspire your children to be one? The Rubber Fireman Duck is perfect for you! This rubber ducky is ready to spring into action with his hose by his side!
+  // {
+  //   id: 14,
+  //   name: "Fireman Ducky",
+  //   imgURL:
+  //     "https://cdn.shopify.com/s/files/1/0604/4801/products/CIMG0253_1cc2de25-bd5e-4030-abf9-86a4d36b0e17_540x.JPG?v=1505112051",
+  //   price: 5.50,
+  //   description: `Are you a firefighter yourself? or you want to inspire your children to be one? The Rubber Fireman Duck is perfect for you! This rubber ducky is ready to spring into action with his hose by his side!
 
-        Measurements: 3 1/2" x 3 1/4" x 3 1/2"
+  //       Measurements: 3 1/2" x 3 1/4" x 3 1/2"
         
-        Our rubber ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
+  //       Our rubber ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
         
-        Age 3 and above. Please use with supervision for children under the age of 3.`,
-  },
+  //       Age 3 and above. Please use with supervision for children under the age of 3.`,
+  // },
   {
     id: 15,
     name: "Movie Ducky",
@@ -240,36 +240,36 @@ let starterProducts = [
         
         Age 3 and above. Please use with supervision for children under the age of 3.`,
   },
-  {
-    id: 18,
-    name: "Soccer Ducky",
-    imgURL:
-      "https://cdn.shopify.com/s/files/1/0604/4801/products/Soccer_updated_1_540x.jpg?v=1536909228",
-    price: 5.50,
-    description: `Do you enjoy watching World Cup or FIFA? Are you a soccer fan or player yourself! The Rubber Soccer Duck is perfect for the soccer season. Order one for yourself, or a bunch to celebrate your team! 
+  // {
+  //   id: 18,
+  //   name: "Soccer Ducky",
+  //   imgURL:
+  //     "https://cdn.shopify.com/s/files/1/0604/4801/products/Soccer_updated_1_540x.jpg?v=1536909228",
+  //   price: 5.50,
+  //   description: `Do you enjoy watching World Cup or FIFA? Are you a soccer fan or player yourself! The Rubber Soccer Duck is perfect for the soccer season. Order one for yourself, or a bunch to celebrate your team! 
 
-        Measurements: 3 3/8" x 3 3/8" x 3 5/8"
+  //       Measurements: 3 3/8" x 3 3/8" x 3 5/8"
         
-        Our ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
+  //       Our ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
         
-        Age 3 and above. Please use with supervision for children under the age of 3.`,
-  },
-  {
-    id: 19,
-    name: "Basketball Ducky",
-    imgURL:
-      "https://cdn.shopify.com/s/files/1/0604/4801/products/IMG_2776_clipped_rev_1_540x.jpeg?v=1514696321",
-    price: 5.50,
-    description: `Whether you love basketball as a sport or as a fan,  the Rubber Basketball Duck will be perfect for you. Order this rubber ducky for yourself, a dozen for the team, or even hundreds for the whole school. 
+  //       Age 3 and above. Please use with supervision for children under the age of 3.`,
+  // },
+  // {
+  //   id: 19,
+  //   name: "Basketball Ducky",
+  //   imgURL:
+  //     "https://cdn.shopify.com/s/files/1/0604/4801/products/IMG_2776_clipped_rev_1_540x.jpeg?v=1514696321",
+  //   price: 5.50,
+  //   description: `Whether you love basketball as a sport or as a fan,  the Rubber Basketball Duck will be perfect for you. Order this rubber ducky for yourself, a dozen for the team, or even hundreds for the whole school. 
 
-        We offer special pricing for any duck quantity over 50 (mix and match welcome), feel free to contact us at info@duckycity.com to learn about the special offer.
+  //       We offer special pricing for any duck quantity over 50 (mix and match welcome), feel free to contact us at info@duckycity.com to learn about the special offer.
         
-        Measurements: 3 1/2" x 3 3/4" x 3 1/2"
+  //       Measurements: 3 1/2" x 3 3/4" x 3 1/2"
         
-        Our rubber ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
+  //       Our rubber ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
         
-        Age 3 and above. Please use with supervision for children under the age of 3.`,
-  },
+  //       Age 3 and above. Please use with supervision for children under the age of 3.`,
+  // },
   {
     id: 20,
     name: "Snorkel Ducky",
@@ -326,20 +326,20 @@ let starterProducts = [
         
         Age 3 and above. Please use with supervision for children under the age of 3.`,
   },
-  {
-    id: 24,
-    name: "Baseball Ducky",
-    imgURL:
-      "https://cdn.shopify.com/s/files/1/0604/4801/products/baseball_1_modified_540x.jpg?v=1505346044",
-    price: 5.50,
-    description: `If you love the sport of Baseball, then you will love our Rubber Baseball Duck! Get your team into spirit by celebrating with this rubber duck today!
+  // {
+  //   id: 24,
+  //   name: "Baseball Ducky",
+  //   imgURL:
+  //     "https://cdn.shopify.com/s/files/1/0604/4801/products/baseball_1_modified_540x.jpg?v=1505346044",
+  //   price: 5.50,
+  //   description: `If you love the sport of Baseball, then you will love our Rubber Baseball Duck! Get your team into spirit by celebrating with this rubber duck today!
 
-        Measurements: 3 1/2" x 3 3/4" x 3 1/2"
+  //       Measurements: 3 1/2" x 3 3/4" x 3 1/2"
         
-        Our rubber ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
+  //       Our rubber ducks are lead free and phthalate free. They contain a round floating weight at the bottom, so our ducks always float right side up in the water.
         
-        Age 3 and above. Please use with supervision for children under the age of 3.`,
-  },
+  //       Age 3 and above. Please use with supervision for children under the age of 3.`,
+  // },
   {
     id: 25,
     name: "Police Ducky",

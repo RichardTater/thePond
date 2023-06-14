@@ -9,9 +9,9 @@ import { FaPinterest } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <Foot container>
+    <Foot container className="static bottom-0">
       <div className="w-full">
-        <Foot.Divider />
+        {/* <Foot.Divider /> */}
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <div>
             <Foot.Brand
